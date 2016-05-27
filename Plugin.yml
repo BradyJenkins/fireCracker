@@ -1,4 +1,4 @@
-name: Firecracker
+name: FW
   main: Jiang11\Firecracker\Main
   version: 0.0.1
   api: 1.0.0
