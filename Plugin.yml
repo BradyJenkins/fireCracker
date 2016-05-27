@@ -1,9 +1,9 @@
 name: Firecracker
-  main: thebigsmileXD\Firecracker\Main
-  version: 0.1.0
+  main: Jiang11\Firecracker\Main
+  version: 0.0.1
   api: 1.0.0
   load: Test
-  authors: [jiang]
+  authors: [jiang,Jacky]
   prefix: "throw me :)"
   commands:
    firecracker:
