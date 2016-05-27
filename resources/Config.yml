@@ -1,6 +1,6 @@
 ---
 # new items in seconds
-give-items-after: 15
+give-items-after: 1
 # the name of the firecracker
 translation: "FC"
 ...
