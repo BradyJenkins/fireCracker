@@ -92,8 +92,8 @@ class Main extends PluginBase implements Listener{
 
 	public function giveFirecracker(Player $player){
 		if($player->isOnline()){
-			$player->getInventory()->remove(Item::get(Item::BRICK));
-			$player->getInventory()->addItem(Item::get(Item::BRICK, 0, 1));
+			$player->getInventory()->remove(Item::get(Item::SNOWBALL));
+			$player->getInventory()->addItem(Item::get(Item::SNOWBALL, 0, 1));
 		}
 		if(isset($this->givetask[$player->getName()])){
 			$this->getServer()->getScheduler()->cancelTask($this->givetask[$player->getName()]);
