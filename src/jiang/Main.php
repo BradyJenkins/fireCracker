@@ -33,7 +33,7 @@ class Main extends PluginBase implements Listener{
 		$this->makeSaveFiles();
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 		$this->getLogger()->info(TextFormat::GREEN . "Enabling " . $this->getDescription()->getFullName() . " by " . $this->getDescription()->getAuthors()[0]);
-		$this->getLogger()->info(TextFormat::GOLD . "Written by Jiang");
+		$this->getLogger()->info(TextFormat::GOLD . "Made by Jiang");
 	}
 
 	private function makeSaveFiles(){
