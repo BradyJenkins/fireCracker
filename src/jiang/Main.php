@@ -33,7 +33,7 @@ class Main extends PluginBase implements Listener{
 		$this->makeSaveFiles();
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 		$this->getLogger()->info(TextFormat::GREEN . "Enabling " . $this->getDescription()->getFullName() . " by " . $this->getDescription()->getAuthors()[0]);
-		$this->getLogger()->info(TextFormat::GOLD . "Happy new Year! Have fun blasting everything up!");
+		$this->getLogger()->info(TextFormat::GOLD . "Written by Jiang");
 	}
 
 	private function makeSaveFiles(){
@@ -106,7 +106,7 @@ class Main extends PluginBase implements Listener{
 		$pk->x = $itementity->x;
 		$pk->y = $itementity->y;
 		$pk->z = $itementity->z;
-		$pk->radius = 10;
+		$pk->radius = 20;
 		$pk->records = [new Vector3($itementity->x, $itementity->y + 0.5, $itementity->z)];
 		Server::broadcastPacket($itementity->getLevel()->getChunkPlayers($itementity->x >> 4, $itementity->z >> 4), $pk->setChannel(Network::CHANNEL_BLOCKS));
 		$itementity->kill();
